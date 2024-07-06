@@ -19,11 +19,11 @@ const SelectionPage = () => {
   return (
     <div className={styles.pageWrapper}>
       <div className={styles.selectionContainer}>
-        <img src={drdo} alt="DRDO Logo" className={styles.logo} />
+        <img src={drdo} alt="DRDO Logo" className={styles.logo1} />
         <h2>Login as</h2>
-        <div className={styles.buttonContainer}>
-          <button onClick={handleAdminClick}>Admin</button>
-          <button onClick={handleUserClick}>User</button>
+        <div className={styles.buttonselectContainer}>
+          <button className={styles.buttonselect} onClick={handleAdminClick}>Admin</button>
+          <button className={styles.buttonselect} onClick={handleUserClick}>User</button>
         </div>
       </div>
     </div>

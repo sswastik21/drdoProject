@@ -74,7 +74,7 @@ const AdminLoginPage = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.containeradmin}>
       <div className={styles.loginSection}>
         <h2>Admin Login</h2>
         <div className={styles.inputContainer}>
@@ -96,7 +96,7 @@ const AdminLoginPage = () => {
           />
         </div>
         <div className={styles.buttonContainer}>
-          <button onClick={handleLogin} className={styles.button}>Login</button>
+          <button onClick={handleLogin} className={styles.buttonadmin}>Login</button>
         </div>
         <div className={styles.forgotPasswordContainer}>
           <a href="#">Forgot Password?</a>
@@ -105,7 +105,7 @@ const AdminLoginPage = () => {
       <div className={styles.welcomeSection}>
         <h2>Hello, Friend!</h2>
         <p>Register with your personal details to use all of our site's features.</p>
-        <button className={styles.signupButton} onClick={handleSignupClick}>Sign Up</button>
+        <button className={styles.signupButtongreen} onClick={handleSignupClick}>Sign Up</button>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ import styles from "./Navbar.module.css";
   return (
     <div>
     <div className={styles.topnav} id="myTopnav">
-    <img src={drdo} alt="" className={styles.logo} />
+    <img src={drdo} alt="" className={styles.logonw} />
     <a href="#home" >Home</a>
     <a href="#news">About</a>
     <a href="#contact">Search</a>

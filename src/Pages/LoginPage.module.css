@@ -243,7 +243,7 @@
 
   body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background: #ededed;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -251,7 +251,7 @@
     margin: 0;
   }
   
-  .container {
+  .containeradmin {
     display: flex;
     width: 800px;
     height: 500px;
@@ -272,7 +272,7 @@
   }
   
   .loginSection {
-    background: #130c69;
+    background: #001F3F;
   }
   
   .welcomeSection {
@@ -315,7 +315,7 @@
     width: 100%;
   }
   
-  button {
+  .buttonadmin {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -327,16 +327,21 @@
     transition: background-color 0.3s;
   }
   
-  button:hover {
+  .buttonadmin:hover {
     background-color: #0056b3;
   }
   
-  .signupButton {
+  .signupButtongreen {
     margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: 100%;
     background-color: #28a745;
   }
   
-  .signupButton:hover {
+  .signupButtongreen:hover {
     background-color: #218838;
   }
   

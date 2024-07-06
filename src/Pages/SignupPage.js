@@ -44,7 +44,7 @@ const SignupPage = () => {
           />
         </div>
         <div className={styles['button-container']}>
-          <button onClick={handleSignup}>Sign Up</button>
+          <button onClick={handleSignup} className={styles.buton1}>Sign Up</button>
         </div>
       </div>
     </div>

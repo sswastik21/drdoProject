@@ -28,8 +28,8 @@ const Dashboard=()=>{
 
                 <div className={styles.box+' box3'}>
                     <div className={styles.text}>
-                        <h2 className={styles.topic}>Designation: Scientist</h2>
-                        <h2 className={styles.topic}>Phone.No: 1234567890</h2>
+                        <div className={styles.topic}>Designation: Scientist</div>
+                        <div className={styles.topic}>Phone.No: 1234567890</div>
                     </div>
 
                     {/* <img src=
@@ -41,7 +41,7 @@ const Dashboard=()=>{
             <div className={styles['report-container']}>
                 <div className={styles['report-header']}>
                     <h1 className={styles['recent-Articles']}>Records</h1>
-                     <button className={styles.noButton}><button className={styles.view}>Employees</button> <button className={styles.view}>Department</button></button>
+                     <button className={styles.dash}><button className={styles.viewdash}>Employees</button> <button className={styles.viewdash}>Department</button></button>
                 </div>
 
                 <div className={styles['report-body']}>

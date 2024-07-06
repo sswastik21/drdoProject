@@ -2,11 +2,12 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-  .logo{
-    width: 50px;
-    height: 50px;
+  .logonw{
+    width: 55px;
+    height: 55px;
     float: left;
     padding: 0.2rem;
+    margin-left: 1rem;
     border-radius: 50%;
     background-color: white;
   }
