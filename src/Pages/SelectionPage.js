@@ -1,7 +1,9 @@
+
+
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import './SelectionPage.css';
-import drdo from "./Images/drdoLogo.png"
+import styles from './SelectionPage.module.css';
+import drdo from './Images/drdoLogo.png';
 
 const SelectionPage = () => {
   const history = useHistory();
@@ -11,16 +13,18 @@ const SelectionPage = () => {
   };
 
   const handleUserClick = () => {
-    history.push('/user-login')
+    history.push('/user-login');
   };
 
   return (
-    <div className="selection-container">
-      <img src={drdo} alt="" class="logo" />
-      <h2>Login as</h2>
-      <div className="button-container">
-        <button onClick={handleAdminClick}>Admin</button>
-        <button onClick={handleUserClick}>User</button>
+    <div className={styles.pageWrapper}>
+      <div className={styles.selectionContainer}>
+        <img src={drdo} alt="DRDO Logo" className={styles.logo} />
+        <h2>Login as</h2>
+        <div className={styles.buttonContainer}>
+          <button onClick={handleAdminClick}>Admin</button>
+          <button onClick={handleUserClick}>User</button>
+        </div>
       </div>
     </div>
   );
