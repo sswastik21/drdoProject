@@ -8,22 +8,10 @@ import AdminLoginPage from './Pages/AdminLoginPage';
 import SignupPage from './Pages/SignupPage';
 function App() {
   return (
-    // <div className="App">
-    //   <Navbar/>
-    //   <SelectionPage/>
-    //   {/* <Dashboard/> */}
-    // </div>
-    <Router>
-      <Switch>
-        <Route exact path="/" component={SelectionPage} />
-        <Route exact path="/admin-login" component={AdminLoginPage} />
-        <Route exact path="/user-login" component={AdminLoginPage} />
-        <Route exact path="/signup" component={SignupPage} />
-        
-        
-
-      </Switch>
-    </Router>
+    <div className="App">
+      <Navbar/>
+      <Dashboard/>
+    </div>
   );
 }
 
