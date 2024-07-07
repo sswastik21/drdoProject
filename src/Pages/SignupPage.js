@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import './SignupPage.css';
+import styles from './SignupPage.module.css';
 import drdo from "./Images/drdoLogo.png"
 
 const SignupPage = () => {
@@ -16,10 +16,10 @@ const SignupPage = () => {
   };
 
   return (
-    <div className="signup-container">
-      <div className="signup-section">
-        <img src={drdo} alt="" class="logo" />
-        <div className="input-container">
+    <div className={styles['signup-container']}>
+      <div className={styles['signup-section']}>
+        <img src={drdo} alt="" className={styles['logo']} />
+        <div className={styles['input-container']}>
           <input
             type="text"
             placeholder="Full Name"
@@ -27,7 +27,7 @@ const SignupPage = () => {
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div className="input-container">
+        <div className={styles['input-container']}>
           <input
             type="email"
             placeholder="Email Address"
@@ -35,7 +35,7 @@ const SignupPage = () => {
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
-        <div className="input-container">
+        <div className={styles['input-container']}>
           <input
             type="password"
             placeholder="Password"
@@ -43,8 +43,8 @@ const SignupPage = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
-        <div className="button-container">
-          <button onClick={handleSignup}>Sign Up</button>
+        <div className={styles['button-container']}>
+          <button onClick={handleSignup} className={styles.buton1}>Sign Up</button>
         </div>
       </div>
     </div>
