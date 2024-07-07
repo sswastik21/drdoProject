@@ -20,69 +20,69 @@ const About = () => {
                          
             <div className={styles['team-grid']}>
                <div className={styles['team-member']}>
-                     <h3>John Doe</h3>
-                     <p>Frontend Developer</p>
+                     <h3>Ramakant Sahoo</h3>
+                     <p>Backend Team</p>
                </div>
 
                <div className={styles['team-member']}>
-                     <h3>John Doe</h3>
-                     <p>Frontend Developer</p>
+                     <h3>Ashish Kumar Behera</h3>
+                     <p>Backend Team</p>
                </div>
 
                <div className={styles['team-member']}>
-                     <h3>John Doe</h3>
-                     <p>Frontend Developer</p>
+                     <h3>Sriman Swastik Das</h3>
+                     <p>Backend Team</p>
                </div>
 
                <div className={styles['team-member']}>
-                     <h3>John Doe</h3>
-                     <p>Frontend Developer</p>
+                     <h3>Suryadeep Barik</h3>
+                     <p>Backend Team</p>
                </div>
 
                <div className={styles['team-member']}>
-                     <h3>John Doe</h3>
-                     <p>Frontend Developer</p>
+                     <h3>Mahak Agrawal</h3>
+                     <p>Frontend Team</p>
                </div>
 
                <div className={styles['team-member']}>
-                     <h3>John Doe</h3>
-                     <p>Frontend Developer</p>
+                     <h3>Sanghamitra Sahoo</h3>
+                     <p>Frontend Team</p>
                </div>
 
                <div className={styles['team-member']}>
-                     <h3>John Doe</h3>
+                     <h3>Shibani Panda</h3>
                      
-                     <p>Frontend Developer</p>
+                     <p>Frontend Team</p>
                </div>
 
                <div className={styles['team-member']}>
-                     <h3>John Doe</h3>
+                     <h3>Adya Mishra</h3>
                      
-                     <p>Frontend Developer</p>
+                     <p>Frontend Team</p>
                </div>
 
                <div className={styles['team-member']}>
-                     <h3>John Doe</h3>
+                     <h3>Bhababhanjan Panda</h3>
                      
-                     <p>Frontend Developer</p>
+                     <p>Frontend Team</p>
                </div>
 
                <div className={styles['team-member']}>
-                     <h3>John Doe</h3>
+                     <h3>Subham Mohanty</h3>
                      
-                     <p>Frontend Developer</p>
+                     <p>Database Team</p>
                </div>
 
                <div className={styles['team-member']}>
-                     <h3>John Doe</h3>
+                     <h3>Umang Das</h3>
                      
-                     <p>Frontend Developer</p>
+                     <p>Database Team</p>
                </div>
                 
                <div className={styles['team-member']}>
                      <h3>John Doe</h3>
                      
-                     <p>Frontend Developer</p>
+                     <p>Database Team</p>
                </div>
        
             </div>
