@@ -12,13 +12,13 @@ const SignupPage = () => {
     console.log('Name:', name);
     console.log('Email:', email);
     console.log('Password:', password);
+    // history.push('/signup');
     // Handle signup logic here
   };
-
   return (
     <div className={styles['signup-container']}>
       <div className={styles['signup-section']}>
-        <img src={drdo} alt="" className={styles['logo']} />
+        <img src={drdo} alt="" className={styles['lSignUP']} />
         <div className={styles['input-container']}>
           <input
             type="text"

@@ -11,7 +11,8 @@ const AdminLoginPage = () => {
   const handleLogin = () => {
     console.log('Admin Username:', username);
     console.log('Admin Password:', password);
-    
+    history.push('/dashboard');
+    // Add your login logic here
   };
 
   const handleSignupClick = () => {
