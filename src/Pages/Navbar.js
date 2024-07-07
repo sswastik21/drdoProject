@@ -7,11 +7,11 @@ import styles from "./Navbar.module.css";
  const Navbar=()=>{
   return (
     <div>
-    <div className={styles.topnav} id="myTopnav">
+    <div className={styles.topnav} id="myTopnav" style={{width:'100%',position:'fixed',left:'0',top:'0'}}>
     <img src={drdo} alt="" className={styles.logonw} />
     <a href="#home" >Home</a>
-    <a href="#news">About</a>
-    <a href="#contact">Search</a>
+    <a href="#about">About</a>
+    <a href="#search">Search</a>
     <a href="#about">Sign In/Up</a>
     <a href="#about">Dashboard</a>
     <a href="javascript:void(0);" className={styles.icon}>
@@ -19,7 +19,7 @@ import styles from "./Navbar.module.css";
       //alert('huoi');
       var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
-          x.className += " responsive";
+          x.className += " navresponsive";
         } else {
           x.className = "topnav";
         }
