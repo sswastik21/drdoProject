@@ -112,18 +112,17 @@ button:active {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.logo {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 20px;
-  padding: 0.3rem;
-  border-radius: 50%;
-  background: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
+.logosele {
+  width: 100px;
+    height: 100px;
+    float: left;
+    margin-bottom: 1rem;
+    padding: 0.2rem;
+    border-radius: 50%;
+    background-color: white;
 }
 
-.logo:hover {
+.logosele:hover {
   transform: scale(1.1);
 }
 
