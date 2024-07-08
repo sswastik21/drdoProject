@@ -80,7 +80,7 @@ const About = () => {
                </div>
                 
                <div className={styles['team-member']}>
-                     <h3>John Doe</h3>
+                     <h3>Jagannath Adhikari</h3>
                      
                      <p>Database Team</p>
                </div>
