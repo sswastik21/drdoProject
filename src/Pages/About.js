@@ -6,15 +6,18 @@ const About = () => {
         <div className={styles['about-container']}>
             <h1>About Us</h1>
             <p>
-            Welcome to our Telephone Directory Management System!
-             <br />
-           We are a dedicated team of interns passionate about technology and innovation. Together, we are committed to creating a 
-           user-friendly and efficient telephone directory management system to streamline contact organization and accessibility.
+                Welcome to Campus Directories, your comprehensive source for telephone directories of various
+                buildings within our campus. Our platform provides easy access to contact information for staff, 
+                and departments, ensuring seamless communication across the campus community. 
+                Whether you need to reach an office,locate a colleague, or find departmental contacts, our user-friendly directory simplifies the process, 
+                fostering connectivity and efficiency. 
+                
+                Explore our organized and up-to-date listings to stay connected and informed within our vibrant campus environment.
 
-            </p>
+</p>
             <p>
-            Our mission is to develop a robust and intuitive system that simplifies the way individuals and organizations manage their contacts.
-             We aim to provide a seamless experience for users, ensuring easy access to accurate and up-to-date information.
+                Our mission is to deliver high-quality products that bring value to our customers.
+                We believe in continuous improvement and always strive to exceed expectations.
             </p>
             <h2 >Team Members</h2>
                          
