@@ -6,15 +6,15 @@ const About = () => {
         <div className={styles['about-container']}>
             <h1>About Us</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rerum quam fugiat in vitae ratione? Doloribus
-                 vel quia quaerat, sed, rem fuga eum doloremque adipisci aut reiciendis earum quo temporibus?
-                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel vero ea, labore optio reprehenderit doloremque error? Nam adipisci 
-                 ut porro nisi asperiores molestiae laboriosam, labore ad odio quod, pariatur tenetur.
+            Welcome to our Telephone Directory Management System!
+             <br />
+           We are a dedicated team of interns passionate about technology and innovation. Together, we are committed to creating a 
+           user-friendly and efficient telephone directory management system to streamline contact organization and accessibility.
 
             </p>
             <p>
-                Our mission is to deliver high-quality products that bring value to our customers.
-                We believe in continuous improvement and always strive to exceed expectations.
+            Our mission is to develop a robust and intuitive system that simplifies the way individuals and organizations manage their contacts.
+             We aim to provide a seamless experience for users, ensuring easy access to accurate and up-to-date information.
             </p>
             <h2 >Team Members</h2>
                          
